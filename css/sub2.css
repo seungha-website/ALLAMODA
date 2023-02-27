@@ -1,0 +1,406 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #cead9b;
+}
+
+body {
+    font-family: 'Pretendard-Regular';
+    font-size: 18px;
+    line-height: 20px;
+    color: #000;
+    min-width: 1320px;
+}
+
+h1,
+h2,
+h4 {
+    font-family: 'Pretendard-bold';
+}
+
+/* header */
+.header {
+    height: 130px;
+    background-color: black;
+}
+
+.header_inner {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    padding-top: 20px;
+}
+
+.h_right {
+    float: right;
+}
+
+.nav {
+    height: 100px;
+}
+
+.nav>li {
+    float: left;
+    position: relative;
+}
+
+.nav>li>a img {
+    padding: 60px 30px 42px;
+    display: block;
+}
+
+.h_right .nav li:hover img {
+    filter: hue-rotate(-180deg);
+}
+
+/* 왼쪽 이미지 */
+
+.middle {
+    width: 1320px;
+    margin: 0 auto;
+    height: 26096px;
+}
+
+.left {
+    float: left;
+    position: relative;
+    width: 790px;
+}
+.left ul{
+    height: 1100px;
+    margin-bottom: 75px;
+}
+
+.start {
+    margin: 0 auto;
+    padding: 70px 0 20px 20px;
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.start li {
+    width: 90px;
+    overflow: hidden;
+}
+
+.list1 img {
+
+    padding: 10px 0px;
+}
+
+.hover1 {
+    width: 650px;
+    overflow: hidden;
+    position: absolute;
+    top: 47px;
+    right: 0;
+}
+
+/* 왼쪽 상세페이지 시작 */
+.brand{
+    display: block;
+}
+
+.color_navy_ivory{
+    display: block;
+}
+
+
+
+
+
+
+
+
+h6 {
+    font-size: 30px;
+    text-align: center;
+    padding: 100px 10px 45px 0px;
+    color: #cead9b;
+}
+
+.blackfont{
+    color: #000;
+    padding-bottom: 60px;
+}
+.product{
+    overflow: hidden;
+}
+.product li {
+    float: left;
+    margin: 5px 6px 130px 0px;
+    overflow: hidden;
+}
+.align{
+    text-align: right;
+}
+
+
+/* 오른쪽 구매 */
+
+.right {
+    float: right;
+    width: 500px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+    margin-bottom: 183px;
+}
+
+h1 {
+    padding: 50px 0px 30px 0px;
+}
+
+h2 {
+    color: #cead9b;
+    text-align: right;
+    border-bottom: 3px solid #000;
+    padding: 15px 0px;
+}
+
+p {
+    padding: 10px 0px;
+    line-height: 30px;
+}
+
+span {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 0px;
+    margin: 10px 0;
+    text-decoration: none;
+    position: relative;
+    width: 100px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 13px;
+
+}
+
+.color a {
+    padding: 10px 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.color a:hover {
+    filter: opacity(0.3);
+}
+
+.size a {
+    border: 1px solid #000;
+    padding: 10px 2px;
+    display: inline-block;
+    width: 118px;
+    text-align: center;
+
+}
+.size a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+
+.m {
+    margin-left: 104px;
+    text-align: center;
+
+
+}
+
+.size {
+    padding-bottom: 10px;
+}
+
+h4 {
+    padding-top: 15px;
+
+}
+
+/* 배송정보, 제품정보 */
+table {
+    padding: 15px 0;
+}
+
+.gray {
+    color: gray;
+}
+
+td {
+    padding: 3px 0;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+.border {
+    border-top: 3px solid #000;
+
+}
+
+/* 테이블 끝  */
+
+h5 {
+    padding-top: 10px;
+    border-top: 3px solid #000;
+    ;
+}
+
+h4 {
+    padding-top: 10px;
+
+}
+
+h4 a {
+    vertical-align: middle;
+}
+
+.buynow {
+    border: #cead9b;
+    background-color: #cead9b;
+    color: #fff;
+    font-size: 18px;
+    padding: 31px 60px;
+    text-align: center;
+    display: inline-block;
+}
+.buynow:hover{
+    background: #000;
+    color: #fff;
+}
+
+.save {
+    border: 3px solid #cead9b;
+    background-color: #fff;
+    color: #cead9b;
+    font-size: 18px;
+    padding: 29px 60px;
+    text-align: center;
+    display: inline-block;
+    margin: 0px 8px;
+}
+.save:hover{
+    border: 3px solid #000;
+    background-color: #000;
+    color: #fff;
+}
+
+.heart {
+    padding-top: 10px;
+}
+
+.L {
+    text-align: left;
+    color: #cead9b;
+}
+
+.bold {
+    font-weight: bold;
+}
+.table1{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+
+
+
+/* 푸터 */
+.footer_inner{
+    margin: 0 auto;
+    width: 100%;
+    background-size: cover;
+    height: 360px;
+    text-align: center;
+    background-color: #000;
+    color: #cead9b;
+}
+.footer_inner ul{
+    padding-top: 30px;
+}
+.f_logo img{
+    padding-top: 40px;
+}
+.sns li{
+    float: left;
+    overflow: hidden;
+    padding: 0px 10px;
+}
+.sns li a{
+    display: block;
+    width: 36px;
+    height: 36px;
+    opacity: 0.5;
+}
+.sns li:nth-child(1) a{
+    background: url(../images/facebook.png) no-repeat;
+}
+.sns li:nth-child(2) a{
+    background: url(../images/instagram.png) no-repeat;
+}
+.sns li:nth-child(3) a{
+    background: url(../images/youtube.png) no-repeat;
+}
+.sns li:hover a{
+    opacity: 1;
+}
+.link2 li:hover a{
+    text-decoration: underline;
+    text-shadow: 0px 0px 5px #cead9b;
+}
+.link2 li, .link a{
+    color: #cead9b;
+}
+.footer_inner ul{
+    display: inline-block;
+}
+.link2 li{
+    float: left;
+    color: #cead9b;
+}
+.link3 li{
+    float: left;
+    
+}
+.link3{
+    text-align: center;
+    padding: 0px 30px;
+    
+}
+.line{
+    padding: 0px 20px;
+    color: #cead9b;
+}
+/* top 버튼 */
+.top {
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+    z-index: 100;
+    box-shadow: 5px 5px 10px #ddd;
+    border-radius: 50%;
+}
+.top img{
+    display: block;
+}
