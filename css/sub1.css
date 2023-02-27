@@ -322,6 +322,18 @@ h4 a {
     bottom: 0%;
     left: 0%;
 }
+.border{
+    text-align: center;
+    width: 500px;
+    border-collapse: collapse;
+}
+.border th {
+     text-align: left;
+}
+.border td{
+    padding: 5px;
+}
+
 
 
 

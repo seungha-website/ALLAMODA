@@ -236,7 +236,6 @@ h3 {
 
 h4 {
     padding-top: 15px;
-
 }
 
 /* 배송정보, 제품정보 */
@@ -324,6 +323,20 @@ h4 a {
     left: 0%;
 }
 
+.border{
+    text-align: center;
+    width: 500px;
+    border-collapse: collapse;
+}
+.border th {
+    text-align: left;
+}
+.border td{
+    padding: 5px;
+}
+.border1{
+    padding-right: 1px;
+}
 
 
 /* 푸터 */
